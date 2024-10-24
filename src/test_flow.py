@@ -78,7 +78,7 @@ def plot_roc_curves(y_true, y_score, classes, save_path):
     
     return roc_auc
 
-def test_flow(num_samples=2, timeout=300):
+def test_flow(num_samples=10, timeout=500):
     logger.info(f"Starting test flow for {num_samples} samples with a {timeout} second timeout")
     
     # Create results directory if it doesn't exist
